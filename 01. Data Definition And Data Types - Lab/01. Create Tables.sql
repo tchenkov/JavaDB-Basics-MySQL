@@ -25,6 +25,8 @@
 #  Columns – select the column you want to be set as foreign key – “category_id”;
 # • Referenced columns – select the column set to primary to link the foreign key – “id”;''
 
+USE gamebar;
+
 CREATE TABLE employees (
 	id INT(11) NOT NULL AUTO_INCREMENT,
 	first_name VARCHAR(50) NOT NULL,
