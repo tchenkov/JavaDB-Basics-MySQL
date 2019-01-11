@@ -1,6 +1,6 @@
 # 02. Insert Data in Tables
 #
-# Insert data into "employees" table from "gamebar" database.
+# Inserting data can be done with a query too. To do that we use the “INSERT” clause. Populate the “employees” table with 3 test values.
 
 USE gamebar;
 
