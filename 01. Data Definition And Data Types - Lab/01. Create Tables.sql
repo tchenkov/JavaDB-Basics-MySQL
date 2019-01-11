@@ -1,29 +1,19 @@
 # 01. Create Tables
 
-# Create Table.
-#
-# Table creation tab will appear. In the “Name” field type the name of your new table – “employees”. From the
-# “Columns” tab you can start creating your table fields.
-# First create an &quot;id&quot; field. It will be set to INT and AUTO_INCREMENT. Select Auto Increment (AI).
-# Make the “id” field to be Primary Key (PK).
-#
-# Create 2 more fields – “first_name” and “last_name”.
-#
-# Similar to “employees” create 2 more tables.
+# When we create tables, we specify the database we want to add them to. This is done by using the “USE” clause.
+# Submit your solutions in JUDGE without the “USE {database name}” row.
+# Table “employees”:
+# • id – INT, primary key, AUTO_INCREMENT;
+# • first_name – VARCHAR, NOT NULL;
+# • last_name – VARCHAR, NOT NULL;
+# Create the “categories” and “products” tables analogically:
 # Table “categories”:
 # • id – INT, primary key, AUTO_INCREMENT;
 # • name – VARCHAR, NOT NULL;
 # Table “products”:
 # • id – INT, primary key, AUTO_INCREMENT;
 # • name – VARCHAR, NOT NULL;
-#
-# • category_id – INT, foreign key referenced to the “categories” table (id)
-#
-# Foreign keys are created in the “Foreign keys” tab:
-# • Reference table – select the table from which you will choose a column to link your foreign key –
-# “categories”;
-#  Columns – select the column you want to be set as foreign key – “category_id”;
-# • Referenced columns – select the column set to primary to link the foreign key – “id”;''
+# • category_id – INT, NOT NULL;
 
 USE gamebar;
 
