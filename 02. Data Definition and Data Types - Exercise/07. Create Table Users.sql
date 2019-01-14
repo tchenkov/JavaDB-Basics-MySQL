@@ -14,7 +14,7 @@ USE minions;
 
 CREATE TABLE users(
 	id INT(11) AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(30) NOT NULL UNIQUE,
+    username VARCHAR(30) NOT NULL,
     password VARCHAR(26) NOT NULL,
     profile_picture TINYBLOB,
     last_login_time TIMESTAMP,
