@@ -5,7 +5,6 @@
 # * Then by first name alphabetically
 # * Then by last name descending
 # * Then by middle name alphabetically
-# Sort the information by id.
 
 USE soft_uni;
 
